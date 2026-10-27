@@ -50,5 +50,30 @@ source file histories:
 The Floating Feast excerpts depend on Godot nodes and the original scenes.
 They are code-reading examples rather than a standalone playable build.
 
-No client project code, game artwork, third-party Unity packages or account
-credentials are included in this sample folder.
+No game artwork, third-party Unity packages or account credentials are included
+in this sample folder.
+
+
+Banling - Unity UI C# samples
+Haijun Yu
+
+These two components are selected from my AI-assisted implementation work on
+Banling, a client game project. The source histories record haijun33 as their
+contributor. They demonstrate a link between interface design and engine code.
+
+IconBarAutoFit.cs
+Adapts a vertical icon bar to the available canvas height by reducing spacing
+and then scaling within configured limits. Recalculates when relevant layout
+inputs change. Dependencies: UnityEngine and UnityEngine.UI.
+
+GramophoneArtworkAnimation.cs
+Uses playback state to rotate a record and smoothly move a tonearm between
+playing, paused and idle states. Configuration comes from the UI prefab.
+Dependency: UnityEngine.
+
+The files are unchanged project excerpts, not a complete playable build.
+AI assistance was used in the implementation workflow; I am not claiming that
+all code in the wider client project was written independently by me.
+
+These two client-project excerpts are shared with project permission, confirmed
+by Haijun Yu before publication.
